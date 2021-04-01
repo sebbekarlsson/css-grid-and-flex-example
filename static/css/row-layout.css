@@ -1,0 +1,22 @@
+/* flex */
+
+.row-layout {
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+
+.row-layout-vertical {
+    flex-direction: column;
+}
+
+.row-layout-column {
+    outline-width: 4px;
+    outline-style: solid;
+    outline-color: blueviolet;
+    flex: 1;
+}
+
+.column:nth-of-type(2) {
+    height: 20%;
+}

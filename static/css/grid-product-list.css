@@ -1,0 +1,16 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 8px;
+    width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    box-sizing: border-box;
+}
+
+.product-item {
+    height: 200px;
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: lightgray;
+}

@@ -1,0 +1,16 @@
+@import 'center.css';
+@import 'row-layout.css';
+@import 'grid-row-layout.css';
+@import 'flex-positions.css';
+@import 'typography.css';
+@import 'grid-product-list.css';
+@import 'flex-product-list.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.floated {
+    float: left;
+}

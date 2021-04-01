@@ -1,0 +1,19 @@
+/* grid */
+
+.grid-row-layout {
+    width: 100%;
+    height: 300px;
+    display: grid;         /* 1 elementet   2 elementet   3 elementet */
+    grid-template-columns: repeat(3, auto);
+}
+
+.grid-row-layout-vertical {
+    grid-template-columns: none;
+    grid-template-rows: auto auto;
+}
+
+.grid-row-layout-column {
+    outline-width: 4px;
+    outline-style: solid;
+    outline-color: green;
+}

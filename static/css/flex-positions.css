@@ -1,0 +1,5 @@
+.flex-right {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+}
